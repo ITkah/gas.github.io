@@ -1,0 +1,16 @@
+.title-sm {
+    font: 500 2rem 'Roboto', sans-serif; 
+    @media (max-width: 990px) {
+        font-size: 1.75rem;
+    }
+    @media (max-width: 576px) {
+        font-size: 1.5rem;
+    }
+}
+
+.text-simple {
+    font: 300 1.125rem 'Roboto', sans-serif; 
+    @media (max-width: 576px) {
+        font-size: 1rem;
+    }
+}
