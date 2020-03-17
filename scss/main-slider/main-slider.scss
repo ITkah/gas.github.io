@@ -51,8 +51,11 @@
     .slider-text {
         color: #fff;
         opacity: .6;
+        padding-left: 10px;
         &::before {
             content: '-';
+            position: relative;
+            left: -5px;
         }
     }
     

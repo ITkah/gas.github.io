@@ -52,3 +52,51 @@
         }
     }
 }
+
+.map {
+    margin-top: 78px;
+    iframe {
+        height: 600px;
+        width: 100%;
+        @media (max-width: 990px) {
+            height: 400px;
+        }
+    }
+}
+
+.feedback-container {
+    padding: 60px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @media (max-width: 990px) {
+        padding: 50px 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 40px;
+    }
+    @media (max-width: 768px) {
+        grid-template-columns: 1fr;
+    }
+    .feedback-img-box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        border-radius: 50%;
+        width: 40px;
+        border: 1px solid #64b0ff;
+        margin: 0 auto;
+        margin-bottom: 15px;
+        img {
+            height: 40px;
+        }
+    }
+    .feedback-text {
+        color: #000;
+        opacity: .8;
+        font: 700 .8rem 'Muli', sans-serif; 
+        text-align: center;
+        display: block;
+    }
+}

@@ -6,10 +6,10 @@ $(document).ready(function() {
 
     $(window).scroll(function() {
         if ($(this).scrollTop() > 20){
-            $('header').addClass("fixed-header");
+            $('.simple-head').addClass("fixed-header");
         }
         else{
-            $('header').removeClass("fixed-header");
+            $('.simple-head').removeClass("fixed-header");
         }
     });
 

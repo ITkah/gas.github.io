@@ -1,0 +1,41 @@
+.lead {
+    .container {
+        padding: 90px 0;
+        @media (max-width: 990px) {
+            padding: 50px 0;
+        }
+    }
+}
+
+.lead-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+    @media (max-width: 990px) {
+        grid-template-columns: 1fr;
+    }
+}
+
+.lead-box {
+    @media (max-width: 990px) {
+        max-width: 400px;
+    }
+    img {
+        height: 45px;
+        margin-bottom: 20px;
+    }
+    .lead-title {
+        font: 500 1.25rem 'Muli', sans-serif; 
+        margin-bottom: 20px;
+        @media (max-width: 990px) {
+            font-size: 1.2rem;
+        }
+    }
+    .lead-text {
+        font: 300 1.1rem/23px 'Muli', sans-serif; 
+        opacity: .6;
+        @media (max-width: 990px) {
+            font-size: 1rem;
+        }
+    }
+}
