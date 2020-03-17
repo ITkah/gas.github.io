@@ -1,5 +1,6 @@
-.title-sm {
-    font: 500 2rem 'Roboto', sans-serif; 
+.title-xl {
+    font: 500 2rem 'Muli', sans-serif; 
+    margin-bottom: 15px;
     @media (max-width: 990px) {
         font-size: 1.75rem;
     }
@@ -9,8 +10,11 @@
 }
 
 .text-simple {
-    font: 300 1.125rem 'Roboto', sans-serif; 
+    font: 500 1.125rem 'Muli', sans-serif; 
+    margin-bottom: 45px;
+    color: rgba(44,46,55,.5);
     @media (max-width: 576px) {
         font-size: 1rem;
+        margin-bottom: 35px;
     }
 }

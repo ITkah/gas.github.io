@@ -1,0 +1,40 @@
+.adv {
+    background: url(../img/adv/adv-bg.png) no-repeat center center fixed;
+    background-size: cover;
+    .title-xl {
+        color: #fff;
+    }
+    .text-simple {
+        opacity: .7;
+        color: #fff;
+    }
+    .container {
+        padding: 90px 0;
+        @media (max-width: 768px) {
+            padding: 50px 0;
+        }
+    }
+}
+
+.adv-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    @media (max-width: 990px) {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 40px;
+    }
+    @media (max-width: 576px) {
+        grid-template-columns:1fr;
+    }
+    .adv-num{
+        font: 300 2.75rem 'Muli', sans-serif; 
+        color: #fff;
+    }
+    .adv-info {
+        font: 500 1.2rem 'Muli', sans-serif; 
+        color: #fff;
+        opacity: .6;
+    }
+}

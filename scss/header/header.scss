@@ -1,9 +1,16 @@
 header {
     position: fixed;
     width: 100%;
-    background: #203260;
     top: 0;
     z-index: 99999;
+    transition: .3s;
+    @media (max-width: 990px) {
+        background: #203260;
+    }
+}
+
+.fixed-header {
+    background: #203260;
 }
 
 .header-container {
@@ -40,8 +47,8 @@ header {
                 padding: 10px 15px;
                 margin: 0 10px;
                 opacity: .8;
-                font: 500 .95rem 'Roboto', sans-serif; 
-                text-transform: uppercase;
+                font: 700 .95rem 'Roboto', sans-serif; 
+                text-transform: capitalize;
                 transition: .3s;
                 border: .5px solid transparent;
                 border-radius: 2px;

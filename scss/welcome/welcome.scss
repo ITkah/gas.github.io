@@ -1,0 +1,60 @@
+.welcome {
+    .container {
+        padding: 90px 0 50px 0;
+        @media (max-width: 768px) {
+            padding: 50px 0 40px 0;
+        }
+    }
+    .slick-dots {
+        bottom: -20px;
+        @media (max-width: 990px) {
+            bottom: -35px;
+        }
+    }
+    .slick-dots li button:before {
+        color: #000;
+        font-size: 2rem;
+        opacity: .3;
+    }
+    .slick-dots li.slick-active button:before {
+        color: #000;
+        opacity: 1;
+    }
+}
+
+
+.welcome-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    img {
+        height: 180px;
+        width: 320px;
+    }
+}
+
+.weclome-box-inf {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background: #fff;
+    position: relative;
+    top: -40px;
+    right: -40px;
+    width: 65%;
+    @media (max-width: 576px){
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    .weclome-title {
+        font: 500 1rem 'Muli', sans-serif; 
+        opacity: .8;
+        margin-bottom: 10px;
+    }
+    .weclome-date {
+        font: 500 .9rem 'Muli', sans-serif; 
+        opacity: .8;
+    }
+}
