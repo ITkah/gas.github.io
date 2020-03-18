@@ -1,0 +1,27 @@
+.about-info {
+    background: url(../img/about/about-bg-2.png) no-repeat center center;
+    background-size: cover;
+    .container {
+        padding: 120px 0;
+        @media (max-width: 990px) {
+            padding: 50px 0;
+        }
+    }
+}
+
+.about-info-container {
+    max-width: 600px;
+    .about-info-title {
+        margin-bottom: 35px;
+        font: normal 2rem 'Muli', sans-serif;
+        @media (max-width: 990px) {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+        }
+    }
+    .about-info-text {
+        font-weight: 500;
+        line-height: 27px;
+        margin-bottom: 0;
+    }
+}
