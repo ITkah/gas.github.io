@@ -1,5 +1,5 @@
 .title-xl {
-    font: 500 2rem 'Muli', sans-serif; 
+    font: 500 2rem 'Muli', sans-serif;
     margin-bottom: 15px;
     @media (max-width: 990px) {
         font-size: 1.75rem;
@@ -10,11 +10,30 @@
 }
 
 .text-simple {
-    font: 700 1.125rem 'Muli', sans-serif; 
+    font: 700 1.125rem 'Muli', sans-serif;
     margin-bottom: 45px;
-    color: rgba(44,46,55,.5);
+    color: rgba(44, 46, 55, .5);
     @media (max-width: 576px) {
         font-size: 1rem;
         margin-bottom: 35px;
+    }
+}
+
+.contact-form {
+    label {
+        margin-bottom: 10px;
+        font: normal .9rem 'Muli', sans-serif;
+    }
+    .input-box {
+        display: flex;
+        margin-bottom: 15px;
+        flex-direction: column;
+    }
+    input {
+        padding: 10px;
+    }
+    textarea {
+        height: 100px;
+        margin-bottom: 20px;
     }
 }

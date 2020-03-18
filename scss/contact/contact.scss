@@ -17,25 +17,6 @@
     }
 }
 
-.contact-form {
-    label {
-        margin-bottom: 10px;
-        font: normal .9rem 'Muli', sans-serif;
-    }
-    .input-box {
-        display: flex;
-        margin-bottom: 15px;
-        flex-direction: column;
-    }
-    input {
-        padding: 10px;
-    }
-    textarea {
-        height: 100px;
-        margin-bottom: 20px;
-    }
-}
-
 .map {
     margin-top: 78px;
     iframe {
