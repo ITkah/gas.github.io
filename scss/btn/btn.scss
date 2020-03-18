@@ -1,0 +1,22 @@
+.btn-blue {
+    color: #fff;
+    background: #3399ff;
+    font: bold .95rem 'Muli', sans-serif;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+    padding: 15px 50px;
+    transition: .3s;
+    box-sizing: border-box;
+    cursor: pointer;
+    @media (max-width: 576px) {
+        width: 100%;
+        display: block;
+        text-align: center;
+        padding: 15px 30px;
+        margin-top: 25px;
+    }
+    &:hover {
+        background: #2d7dce;
+    }
+}

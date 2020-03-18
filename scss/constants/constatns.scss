@@ -46,8 +46,13 @@ p {
 
 button,
 input,
+textarea,
 a {
     outline: none;
+}
+
+textarea {
+    resize: none;
 }
 
 main {

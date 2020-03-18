@@ -17,11 +17,10 @@
     }
 }
 
-
 .contact-form {
     label {
-        margin-bottom:10px;
-        font: normal .9rem 'Muli', sans-serif; 
+        margin-bottom: 10px;
+        font: normal .9rem 'Muli', sans-serif;
     }
     .input-box {
         display: flex;
@@ -31,25 +30,9 @@
     input {
         padding: 10px;
     }
-    button {
-        color: #fff;
-        background: #3399ff;
-        font: bold 1rem 'Muli', sans-serif; 
-        outline: none;
-        border: none;
-        text-transform: uppercase;
-        padding: 10px 35px;
-        transition: .3s;
-        cursor: pointer;
-        @media (max-width: 576px) {
-            width: 100%;
-            display: block;
-            padding: 15px 30px;
-            margin-top: 25px;
-        }
-        &:hover {
-            background: #2d7dce;
-        }
+    textarea {
+        height: 100px;
+        margin-bottom: 20px;
     }
 }
 
@@ -95,7 +78,7 @@
     .feedback-text {
         color: #000;
         opacity: .8;
-        font: 700 .8rem 'Muli', sans-serif; 
+        font: 700 .8rem 'Muli', sans-serif;
         text-align: center;
         display: block;
     }

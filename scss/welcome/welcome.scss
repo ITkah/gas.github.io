@@ -22,7 +22,6 @@
     }
 }
 
-
 .welcome-box {
     display: flex;
     flex-direction: column;
@@ -31,6 +30,11 @@
     img {
         height: 180px;
         width: 320px;
+        @media (max-width: 990px) {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
     }
 }
 
@@ -43,18 +47,18 @@
     top: -40px;
     right: -40px;
     width: 65%;
-    @media (max-width: 576px){
+    @media (max-width: 576px) {
         top: 0;
         left: 0;
         width: 100%;
     }
     .weclome-title {
-        font: 500 1rem 'Muli', sans-serif; 
+        font: 500 1rem 'Muli', sans-serif;
         opacity: .8;
         margin-bottom: 10px;
     }
     .weclome-date {
-        font: 500 .9rem 'Muli', sans-serif; 
+        font: 500 .9rem 'Muli', sans-serif;
         opacity: .8;
     }
 }
