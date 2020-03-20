@@ -1,0 +1,7 @@
+.news-container {
+    padding: 90px 0;
+    margin-top: 40px;
+    @media (max-width: 990px) {
+        padding: 50px 0;
+    }
+}

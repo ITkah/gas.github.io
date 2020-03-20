@@ -1,14 +1,13 @@
 $(document).ready(function() {
 
-    $(".call-menu").on("click", function(){
+    $(".call-menu").on("click", function() {
         $("nav").slideToggle(200);
     });
 
     $(window).scroll(function() {
-        if ($(this).scrollTop() > 20){
+        if ($(this).scrollTop() > 20) {
             $('.simple-head').addClass("fixed-header");
-        }
-        else{
+        } else {
             $('.simple-head').removeClass("fixed-header");
         }
     });
@@ -29,31 +28,30 @@ $(document).ready(function() {
         slidesToShow: 3,
         margin: 10,
         slidesToScroll: 3,
-        responsive: [
-          {
-            breakpoint: 1024,
-            settings: {
-              slidesToShow: 2,
-              slidesToScroll: 2,
-              dots: true
+        responsive: [{
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    dots: true
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
             }
-          },
-          {
-            breakpoint: 768,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1
-            }
-          },
-          {
-            breakpoint: 480,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1
-            }
-          }
         ]
-      });
+    });
 
     $('.multiple-items').slick({
         infinite: true,
