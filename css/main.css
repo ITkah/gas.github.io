@@ -858,6 +858,15 @@ header {
     .text-activiti {
       font-size: 1rem; } }
 
+.activiti-img {
+  height: 400px;
+  margin-top: 60px; }
+  @media (max-width: 990px) {
+    .activiti-img {
+      height: 300px; } }
+  .activiti-img .slider-title {
+    font-size: 3rem; }
+
 .news-container {
   padding: 90px 0;
   margin-top: 40px; }

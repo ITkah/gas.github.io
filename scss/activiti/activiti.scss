@@ -116,3 +116,14 @@
         font-size: 1rem;
     }
 }
+
+.activiti-img {
+    height: 400px;
+    margin-top: 60px;
+    @media (max-width: 990px) {
+        height: 300px;
+    }
+    .slider-title {
+        font-size: 3rem;
+    }
+}
