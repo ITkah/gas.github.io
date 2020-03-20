@@ -18,7 +18,7 @@ $(document).ready(function() {
         fade: true,
         cssEase: 'linear',
         autoplay: true,
-        autoplaySpeed: 2000,
+        autoplaySpeed: 3000,
     });
 
     $('.responsive').slick({

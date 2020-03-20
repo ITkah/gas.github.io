@@ -1,18 +1,18 @@
-.main-slider { 
+.main-slider {
     margin-bottom: -30px;
-    .slide{
-        background-size:cover;
-        background-position:center center;
-        background-repeat:no-repeat;  
+    .slide {
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
     }
-    .slick-slide{
+    .slick-slide {
         height: 800px;
         @media (max-width: 990px) {
             height: 500px;
         }
     }
     .slick-dots {
-        bottom:40px;
+        bottom: 40px;
         position: absolute;
     }
     .slick-dots li button:before {
@@ -37,7 +37,7 @@
         margin-top: 30px;
     }
     .slider-title {
-        font: 500 5rem 'Muli', sans-serif; 
+        font: 500 5rem 'Muli', sans-serif;
         margin-bottom: 20px;
         color: #fff;
         @media (max-width: 990px) {
@@ -47,7 +47,6 @@
             font-size: 2rem;
         }
     }
-    
     .slider-text {
         color: #fff;
         opacity: .6;
@@ -58,5 +57,13 @@
             left: -5px;
         }
     }
-    
+}
+
+.center {
+    text-align: center;
+}
+
+.slider-text-simple {
+    color: #fff;
+    font: 500 1.2rem 'Muli', sans-serif;
 }

@@ -1,0 +1,118 @@
+.activiti {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.activiti-block {
+    padding: 50px 30px;
+    @media (max-width: 990px) {
+        padding: 20px;
+    }
+}
+
+.activiti-block-info {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    .activiti-title {
+        margin: 25px 0 15px 0;
+        font: 500 1.5rem 'Muli', sans-serif;
+        position: relative;
+        &::before {
+            content: '';
+            display: block;
+            height: 1.5px;
+            width: 40px;
+            position: relative;
+            top: -15px;
+            background: #3399ff;
+        }
+        @media (max-width: 990px) {
+            font-size: 1.75rem;
+        }
+        @media (max-width: 576px) {
+            font-size: 1.5rem;
+        }
+    }
+    .activivit-text {
+        color: #000;
+        font-weight: 300;
+        font-size: 1rem;
+        margin: 0;
+        margin-bottom: 30px;
+        @media (max-width: 990px) {
+            margin-bottom: 10px;
+        }
+    }
+    .btn-blue {
+        width: 150px;
+        padding: 10px 15px;
+        text-align: center;
+        @media (max-width: 576px) {
+            width: 100%;
+            padding: 12px;
+        }
+    }
+}
+
+.activiti-block-img {
+    width: 900px;
+    height: 100%;
+    @media (max-width: 990px) {
+        width: 100%;
+    }
+    img {
+        width: 100%;
+        object-fit: contain;
+        height: 100%;
+    }
+}
+
+.activiti-block {
+    display: flex;
+    flex-direction: row;
+    @media (max-width: 990px) {
+        flex-direction: column;
+    }
+    .activiti-block-img {
+        margin-right: 35px;
+        @media (max-width: 990px) {
+            margin: 0 0 20px 0;
+        }
+    }
+}
+
+.activiti-block:nth-child(2n) {
+    background: #f6f6f6;
+    display: flex;
+    flex-direction: row-reverse;
+    @media (max-width: 990px) {
+        flex-direction: column;
+    }
+    .activiti-block-img {
+        margin-left: 35px;
+        @media (max-width: 990px) {
+            margin: 0 0 20px 0;
+        }
+    }
+}
+
+.activiti-items {
+    margin-top: 150px;
+}
+
+.activiti-items-container {
+    background: #f6f6f6;
+    padding: 20px;
+    margin-bottom: 50px;
+    @media (max-width: 990px) {
+        margin-bottom: 30px;
+    }
+}
+
+.text-activiti {
+    font: 300 1.125rem 'Muli', sans-serif;
+    @media (max-width: 990px) {
+        font-size: 1rem;
+    }
+}
