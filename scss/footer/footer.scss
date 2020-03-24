@@ -43,7 +43,7 @@ footer {
             font-size: 1.25rem;
         }
     }
-    .footer-link {
+    .footer-link,a {
         opacity: .6;
         color: #fff;
         margin-bottom: 15px;
@@ -66,11 +66,6 @@ footer {
             align-items: flex-end;
         }
     }
-    .footer-box-link:nth-child(4) {
-        @media(max-width: 768px) {
-            align-items: flex-end;
-        }
-    }
 }
 
 .footer-privat {
@@ -85,5 +80,17 @@ footer {
         @media (max-width: 768px) {
             font-size: .87rem;
         }
+    }
+}
+
+.white-popup-block {
+    position: relative;
+    max-width: 500px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 40px;
+    p {
+        text-align: center;
+        font: 500 2rem 'Muli', sans-serif;
     }
 }

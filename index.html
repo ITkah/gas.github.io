@@ -6,9 +6,8 @@
     <title></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/slick-theme.css">
-    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/main.min.css">
     <link href="https://fonts.googleapis.com/css?family=Muli:300,400,500,700&display=swap" rel="stylesheet">
 </head>
 
@@ -61,7 +60,7 @@
                     </div>
                 </div>
             </section>
-            <section class="lead padding">
+            <section class="lead padding wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
                 <div class="container">
                     <p class="title-xl">Leaders in the Green Power Market</p>
                     <p class="text-simple">WELCOME TO ENERGIA</p>
@@ -151,13 +150,13 @@
                     <p class="title-xl">Integrated Solar Value Chain</p>
                     <p class="text-simple">WELCOME TO ENERGIA</p>
                     <div class="welcome-container responsive slick-slider">
-                        <div class="welcome-box">
+                        <a href="#" class="welcome-box">
                             <img src="img/welcome/welcome.jpg" alt="welcome">
                             <div class="weclome-box-inf">
                                 <p class="weclome-title">Solar Wind,wind,<br>Solar Wind,wind,</p>
                                 <p class="weclome-date">Jan 3,2018</p>
                             </div>
-                        </div>
+                        </a>
                         <div class="welcome-box">
                             <img src="img/welcome/welcome.jpg" alt="welcome">
                             <div class="weclome-box-inf">
@@ -227,6 +226,9 @@
                             </div>
                             <button type="submit" class="btn-blue">send</button>
                         </form>
+                        <div class="contact-img">
+                            <img src="img/main-slider/slid-bg-1.jpg" alt="contact">
+                        </div>
                     </div>
                 </div>
             </section>
@@ -300,33 +302,13 @@
                     </div>
                     <div class="footer-box-link">
                         <p class="footer-title">Company</p>
-                        <a href="#" class="footer-link">
-                               Home 
-                            </a>
-                        <a href="#" class="footer-link">
-                                Contact 
-                            </a>
-                        <a href="#" class="footer-link">
-                                About us 
-                            </a>
-                        <a href="#" class="footer-link">
-                                News
-                            </a>
-                    </div>
-                    <div class="footer-box-link">
-                        <p class="footer-title">Resouces</p>
-                        <a href="#" class="footer-link">
-                                Home 
-                            </a>
-                        <a href="#" class="footer-link">
-                                Contact 
-                            </a>
-                        <a href="#" class="footer-link">
-                                About us  
-                            </a>
-                        <a href="#" class="footer-link">
-                                News
-                            </a>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    Home 
+                                </a>
+                            </li>
+                        </ul>
                     </div>
                     <div class="footer-box-link">
                         <p class="footer-title">Socials</p>
@@ -348,9 +330,16 @@
         </footer>
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script src="js/libs/slick.min.js"></script>
-    <script src="js/common.js"></script>
+    <a class="popup-with-form" href="#thank"></a>
+
+
+    <div id="thank" class="mfp-hide white-popup-block">
+        <p class="form-title">
+            С вами скоро свяжутся
+        </p>
+    </div>
+
+    <script src="js/common.min.js"></script>
 </body>
 
 </html>

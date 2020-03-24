@@ -1,4 +1,4 @@
-.adv {
+.data {
     background: #203260;
     .title-xl {
         color: #fff;
@@ -20,7 +20,7 @@
     }
 }
 
-.adv-container {
+.data-compani {
     max-width: 990px;
     margin: 0 auto;
     position: relative;
@@ -38,7 +38,7 @@
     }
 }
 
-.adv-box {
+.data-compani-box {
     display: flex;
     align-items: center;
     margin-bottom: 30px;
@@ -49,11 +49,11 @@
     }
 }
 
-.adv-box:last-child {
+.data-compani-box:last-child {
     margin: 0;
 }
 
-.adv-date {
+.data-compani-title {
     font: normal 2.5rem 'Muli', sans-serif;
     color: #fff;
     margin-right: 50px;
@@ -81,7 +81,7 @@
     }
 }
 
-.adv-text {
+.data-compani-text {
     font: normal 1.1rem 'Muli', sans-serif;
     color: #fff;
     margin-bottom: 0;
